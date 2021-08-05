@@ -1,0 +1,208 @@
+.loaderMain {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    background: rgba(255,255,255,0.6);
+    top: 0;
+    z-index: 99999;
+    display: none;
+}
+.loader {
+    border: 5px solid #c5c5c5;
+    border-top-color: rgb(243, 243, 243);
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top: 5px solid
+    #000;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    animation: spin 2s linear infinite;
+}
+/* .loaderIneer{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    background: #fff;;
+} */
+.loader {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 0px;
+    top: 50%;
+    margin-top: -50px;
+}
+  
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@-moz-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@-webkit-keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.error {
+    color: #F00;
+    background-color: #FFF;
+  }
+
+.avatar-upload .avatar-preview > div {
+    overflow: hidden;
+}
+.avatar-upload .avatar-preview img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+.nameInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 6px;
+}
+.AddedContact {
+    margin-top: 20px;
+}
+
+.contactIttem {
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.nameInfo h2 {
+    font-size: 20px;
+    margin: 0;
+}
+.contactEdit {
+    margin-left: 10px;
+    vertical-align: text-top;
+}
+.locationSearch:focus {
+    background: rgba(255, 255, 255, 0.1);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+.rang-box {
+    width: 100%;
+    max-width: 300px;
+}
+.input-value {
+    display: flex;
+}
+.input-value li {
+    flex: 1;
+}
+.input-value li input{
+    width: 100%;
+}
+
+.pdfView img {
+    width: 100%;
+    max-width: 40px;
+}
+.dropzone .avatar-preview img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+.dropzone {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    min-height: auto;
+    padding-bottom: 40%;
+}
+.pdfIcon {
+    object-fit: contain !important;
+    background: #fff;
+    object-position: center;
+    max-height: 100px;
+    top: 50% !important;
+    transform: translateY(-50%);
+}
+.dropzone span center {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    margin-top: -10px;
+}
+.toast-message h5, .toast-message h4, .toast-message h3, .toast-message {
+    font-size: 14px;
+}
+.float-right{
+    float:right;
+}
+.tfoot-color{
+    background-color: #e8e8e8;
+}
+.tfoot-color tr th{
+    padding-left: 7px;
+}
+.graph-color-div ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.graph-color-div .graph-color,.graph-color-div .graph-color2{
+    padding: 0px 7px;
+    margin-right: 5px;
+}
+.graph-color-div .graph-color2 {
+    padding: 7px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.graph-color-div ul li {
+    margin-right: 20px;
+    margin-bottom: 5px;
+}
+body{
+    -webkit-print-color-adjust: exact; 
+}
+.notification-item-list {
+    max-height: 250px;
+    height: auto !important;
+}
+
+.all_messages .dropdown-item.active, .dropdown-item:active {
+    background-color: #f1f1f1;
+}
+
+.all_messages .dropdown-item.read  {
+    background-color: #ffffff;
+}
+
+.notification-list .noti-icon-badge {
+   top: 14px;
+    right: 1px;
+}
+
+.msgNmbr {
+    left: 245px;
+    top: 17px;
+    height:25px;
+    width:25px;
+    text-align: center;
+}
+.editMap {
+    float:right;
+}
+
+.deleteMap {
+    margin-right: 6px;
+}

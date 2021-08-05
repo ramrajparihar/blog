@@ -1,0 +1,206 @@
+#logo
+{
+	width: 505px;
+	margin: 0 auto;
+	text-align: center;
+}
+#pgtitle
+{
+	margin: 0px 0px 20px;
+	font-size: 18pt;
+}
+#container
+{
+	display: block;
+	width: 850px;
+	height: 300px;
+	margin: 0 auto;
+}
+#imgtag
+{
+	position: relative;
+	min-width: 300px;
+	/* min-height: 900px; */
+	float: none;
+	/* border: 3px solid #FFF; */
+	cursor: crosshair;
+	text-align: center;
+	/* overflow: auto; */
+}
+#imgtag img{
+	border-radius: 10px;
+}
+.tagview
+{
+	border: 1px solid #F10303;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+/*display:none;*/
+	opacity: 0;
+	color: #FFFFFF;
+	text-align: center;
+}
+.square
+{
+	display: block;
+	height: 79px;
+}
+.person h2
+{
+	color:#525050;
+	/* border-top: 1px solid #F10303; */
+}
+#tagit {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    border: 1px solid #D7C7C7;
+	background: #fff;
+	border-radius: 10px;
+    overflow: hidden;
+	border-top-left-radius: 0;
+	z-index: 1;
+}
+#tagit .box
+{
+	border: 1px solid #F10303;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+#tagit .name {
+    float: left;
+    background-color: #FFF;
+    width: 100%;
+    padding: 8px;
+    font-size: 10pt;
+}
+#tagit .select2.select2-container.select2-container--default{
+    text-align: left;
+}
+#tagit DIV.text
+{
+	margin-bottom: 5px;
+}
+#tagit INPUT[type=text]
+{
+	margin-bottom: 5px;
+}
+#tagit #tagname
+{
+	width: 110px;
+}
+#taglist
+{
+	width: 300px;
+	min-height: 200px;
+	height: auto !important;
+	height: 200px;
+	float: left;
+	padding: 10px;
+	margin-left: 20px;
+	color: #000;
+}
+#taglist OL
+{
+	padding: 0 20px;
+	float: left;
+	cursor: pointer;
+}
+
+#taglist OL A:hover
+{
+	text-decoration: underline;
+}
+.tagtitle
+{
+	font-size: 14px;
+	text-align: center;
+	width: 100%;
+	float: left;
+}
+.tagBtnAct {
+    margin-top: 10px;
+}
+.tagBtnAct .btn {
+    margin: 0 2px;
+    padding: 4px 8px;
+    min-width: 65px;
+}
+
+.deviceInfo ul li{
+	color:black;
+}
+.dselect{
+	float: left;
+    padding: 1px;
+}
+
+.deviceInfo h2 span{
+    font-size: 16px;
+    margin: 0;
+    /* padding-bottom: 12px;
+    border-bottom: 1px solid #e8e8e8;
+    margin-bottom: 10px; */
+	display: flex;
+	text-align: left;
+}
+
+*body {
+	margin: 0;
+  }
+  
+  #navbar {
+	overflow: hidden;
+	background-color: #099;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-left: 20px;
+  }
+  
+  #navbar a {
+	float: left;
+	display: block;
+	color: #666;
+	text-align: center;
+	padding-right: 20px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  #navbar a:hover {
+	background-color: #ddd;
+	color: black;
+  }
+  
+  #navbar a.active {
+	background-color: #4CAF50;
+	color: white;
+  }
+  
+  .main {
+	padding: 16px;
+	margin-top: 30px;
+	width: 100%;
+	height: 100vh;
+	overflow: auto;
+	cursor: grab;
+	cursor: -o-grab;
+	cursor: -moz-grab;
+	cursor: -webkit-grab;
+  }
+  
+  .main img {
+	height: auto;
+	width: 100%;
+  }
+  
+  .button {
+	width: 300px;
+	height: 60px;
+  }

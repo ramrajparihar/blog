@@ -1,0 +1,44 @@
+@media only screen and (max-width:480px){
+	.bannerSliderCont h3 {
+		font-size: 32px;
+	}
+	.secTitle h2 {
+		font-size: 35px;
+	}
+	.resFloat.float-left{
+		display: block;
+		width:100%;
+	}
+	.resFloat.float-right{
+		float:left !important;
+		margin-top:10px;
+	}
+}
+@media only screen and (max-width:399px){
+	.respLogin.d-flex{
+		display: block !important;
+	}
+	.respLogin.d-flex .ml-auto{
+		margin-top:20px;
+	}
+}
+@media only screen and (max-width:991px){
+	.serRightSec{
+		margin-top:20px;
+	}
+	.nav-item.signupBtn {
+		margin-bottom: 20px;
+	}
+	.servicessProcessStep {
+		margin-bottom: 25px;
+	}
+	.resMarBtm{
+		margin-bottom:20px;
+	}
+}
+@media only screen and (max-width:800px){
+	.owl-carousel .owl-item img {
+		height: 50vh;
+		object-fit: cover;
+	}
+}
