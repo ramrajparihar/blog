@@ -43,3 +43,12 @@ Route::get('/deleteCategory/{route_id}', 'Admin\CategoryController@delete');
 Route::get('/category/pagination/fetch_data', 'Admin\CategoryController@fetch_data');
 Route::get('/category/search/{text?}', 'Admin\CategoryController@search');
 
+// Product Route
+Route::get('/product', 'Admin\ProductController@index');
+Route::get('/editProduct/{id}', 'Admin\ProductController@showEditPage');
+Route::post('/editProduct', 'Admin\ProductController@edit');
+Route::get('/addProduct', 'Admin\ProductController@show');
+Route::post('/addProduct', 'Admin\ProductController@store');
+Route::get('/deleteProduct/{route_id}', 'Admin\ProductController@delete');
+Route::get('/product/pagination/fetch_data', 'Admin\ProductController@fetch_data');
+Route::get('/product/search/{text?}', 'Admin\ProductController@search');

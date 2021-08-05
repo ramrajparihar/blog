@@ -13,7 +13,7 @@
                                 <a href="calendar.html" class="waves-effect"><i class="ti-calendar"></i><span> Calender</a>
                             </li> -->
                             <li>
-                                <a href="customer.html" class="waves-effect"><i class="ti-user"></i><span> Product</a>
+                                <a href="/product" class="waves-effect"><i class="ti-user"></i><span> Product</a>
                             </li>
                            
                             <li>
